@@ -2,4 +2,4 @@
 tmp/
 grube.*
 ExampleTestSkeleton.php
-vendor/
+vendor
