@@ -16,14 +16,14 @@ use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\TestWith;
 use Uri\Rfc3986\Uri;
-use SchrodtSven\P8Five\New\UriExtRunner;
+use SchrodtSven\P8Five\New\Useless;
 
 final class UriExtTest  extends TestCase
 {
 
     public function setUp(): void
     {
-        $foo = new UriExtRunner();
+        $foo = new Useless();
     }
 
     #[DataProvider('uriProvider')]

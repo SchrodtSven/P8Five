@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Class showing 
+ * Class only needed for Bootstrapping, checking if PHP version needed is installed 
  * 
  * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/P8Five
@@ -14,7 +14,7 @@ declare(strict_types=1);
 
 namespace SchrodtSven\P8Five\New;
 
-class UriExtRunner
+class Useless
 {
 
 }
