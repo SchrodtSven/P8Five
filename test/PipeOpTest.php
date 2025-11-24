@@ -31,7 +31,7 @@ final class PipeOpTest  extends TestCase
     #[DataProvider('txtProvider')]
     public function testBasix(string $raw, string $piped): void
     {
-        $this->assertSame($piped, $this->user->chainMe($raw));
+        $this->assertSame($piped, $this->user->chainSawMeCharley($raw));
     }
 
 
@@ -39,6 +39,9 @@ final class PipeOpTest  extends TestCase
     {
         return [
             'data set 1' => [' Lorem Ispum Foo ! ', 'lorem-ispum-foo-!'],
+            'data set 3' => [' sheila judge bumfuzzle flob spqr quirky lunatic tom zork observable zot', 'sheila-judge-bumfuzzle-flob-spqr-quirky-lunatic-tom-zork-observable-zot'],
+            'data set 14' => ['  searchable whimsical readonly hysterical jigs Builder jumping ipsum Folding gork', 'searchable-whimsical-readonly-hysterical-jigs-builder-jumping-ipsum-folding-gork'],
+            'crypt0' => [' Claude Alice Bob database Èmile Frank', 'claude-alice-bob-database-Èmile-frank'],
             
         ];
     }

@@ -16,7 +16,7 @@ namespace SchrodtSven\P8Five\New;
 
 class PipeOpUser
 {
-    public function chainMe(string $txt): string 
+    public function chainSawMeCharley(string $txt): string 
     {
         return $txt 
         |> trim(...)
