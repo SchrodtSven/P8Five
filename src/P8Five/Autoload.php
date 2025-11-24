@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Auto loading for P8Five
+ * Auto loading for P8Five with check, if installed PHP version is sufficent
  * 
  * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/P8Five
@@ -41,6 +41,10 @@ class Autoload
      */
     public function registerAutoloader()
     {
+        if (version_compare(phpversion(), '8.5.0', '<')) {
+        // php version not adequate
+            throw new \RuntimeException("PHP version >= 8.5 needed!");
+        }
         /**
          * Registering project specific auto loading
          */

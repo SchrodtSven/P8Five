@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @link https://github.com/SchrodtSven/P8Five
  * @package P8Five
  * @version 0.1
- * @since 2025-08-14
+ * @since 2025-11-24
  */
 
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -16,9 +16,16 @@ use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\TestWith;
 use Uri\Rfc3986\Uri;
+use SchrodtSven\P8Five\New\UriExtRunner;
 
 final class UriExtTest  extends TestCase
 {
+
+    public function setUp(): void
+    {
+        $foo = new UriExtRunner();
+    }
+
     #[DataProvider('uriProvider')]
     public function testBasix(?string $uri, ?string $user, ?string $pass, ?string $path, ?int $port, ?string $fragment, ?string $scheme, ?string $query, ?string $host): void
     {

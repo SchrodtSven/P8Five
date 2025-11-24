@@ -8,11 +8,11 @@ declare(strict_types=1);
  * @link https://github.com/SchrodtSven/P8Five
  * @package P8Five
  * @version 0.1
- * @since 2025-10-23
+ * @since 2025-11-24
  */
 
 
-namespace SchrodtSven\New\P8Five;
+namespace SchrodtSven\P8Five\New;
 
 class UriExtRunner
 {
