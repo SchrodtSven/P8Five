@@ -1,6 +1,6 @@
 # P8Five
 
-Testing (mainly as *Unit Test* in ```test/```) new features of <kbd>PHP 8.5</kbd>
+Testing (mainly as *Unit Test* in [test/](test/) new features of <kbd>PHP 8.5</kbd>
 
 
 New features in PHP 8.5:
