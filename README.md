@@ -5,7 +5,7 @@ Testing (mainly as *Unit Test* in ```test/```) new fetures of <var>PHP 8.5</var>
 
 New features in PHP 8.5:
 
-- [ ] URI Extension
+- [X] URI Extension
 - [ ] Pipe Operator
 - [ ] Clone With
 - [ ] #[\NoDiscard] Attribute
