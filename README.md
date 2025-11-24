@@ -1,9 +1,12 @@
 # P8Five
 
-New features in PHP 8.5
+Testing (mainly as *Unit Test* in ```test/```) new fetures of <var>PHP 8.5</var>
+
+
+New features in PHP 8.5:
 
 - [ ] URI Extension
-- [X] Pipe Operator
+- [ ] Pipe Operator
 - [ ] Clone With
 - [ ] #[\NoDiscard] Attribute
 - [ ] Closures and First-Class Callables in Constant Expressions

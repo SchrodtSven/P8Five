@@ -4,11 +4,11 @@ declare(strict_types=1);
 /**
  * Auto loading for P8Five
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/P8Five
  * @package P8Five
  * @version 0.1
- * @since 2025-10-23
+ * @since 2025-11-24
  */
 
 

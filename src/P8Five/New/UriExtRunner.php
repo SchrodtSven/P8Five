@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 /**
- * Auto loading for P8Five
+ * Class showing 
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/P8Five
  * @package P8Five
  * @version 0.1
