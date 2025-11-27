@@ -3,3 +3,4 @@ tmp/
 grube.*
 ExampleTestSkeleton.php
 vendor
+.phpunit.result.cache
