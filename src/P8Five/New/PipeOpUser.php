@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Class using new pip operator |>
+ * Class using new pipe operator |>
  * 
  * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/P8Five

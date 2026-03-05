@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Class for demonstrating "clone with" funtionality on readonly classes in unit tests
  * 
+ * @see https://www.php.net/releases/8.5/en.php#clone-with
  * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/P8Five
  * @package P8Five

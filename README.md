@@ -10,5 +10,4 @@ New features in PHP 8.5:
 - [X] Clone With
 - [X] ```#[\NoDiscard]``` Attribute
 - [ ] Closures and First-Class Callables in Constant Expressions
-- [ ] Static closures and first-class callables can now be used in constant expressions, such as attribute parameters.
 - [ ] Persistent cURL Share Handles
